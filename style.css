@@ -1,0 +1,42 @@
+h1{
+    color: #0A3871
+}
+
+#texto-encriptado{
+    width: 100%;
+    height: auto;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+#textarea {
+    width: 80%;
+    border: none;
+    background-color: #E6EDF6;
+    color: #0A3871;
+    resize: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+}
+#textarea::placeholder {
+    color: #0A3871;
+}
+#textarea:focus {
+    border-color: transparent;
+    box-shadow: 0 1px 1px transparent inset, 0 0 8px transparent;
+    outline: none;
+}
+
+.bi-x-octagon {
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+#sidebar{
+    border-radius: 35px;
+    overflow: hidden;
+    /* border:  #0A3871 solid 1px; */
+    padding: 10px;
+    background-clip: padding-box;
+}
